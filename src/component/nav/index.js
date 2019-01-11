@@ -32,7 +32,7 @@ class Nav extends Component {
         <ul className="ulNav">
           {
             ulData.map((item,index)=>{
-              return (<li onClick={e=>this.handleClick(item,index,e)} key={index}>{item.name}</li>)
+              return (<li onClick={e=>this.handleClick(item,index,e)} key={index}>{item.name}22222222222</li>)
             })
           }
           </ul>
